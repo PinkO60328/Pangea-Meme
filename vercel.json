@@ -1,6 +1,17 @@
 {
   "cleanUrls": true,
-  "headers": [
-    { "source": "/api/((?!logo/).*)", "headers": [{ "key": "Content-Type", "value": "application/json; charset=utf-8" }] }
+  "rewrites": [
+    { "source": "/api/pools", "destination": "https://www.pangea.trade/api/pools" },
+    { "source": "/api/history", "destination": "https://www.pangea.trade/api/history" },
+    { "source": "/api/token/meta", "destination": "https://www.pangea.trade/api/token/meta" },
+    { "source": "/api/logo/:path*", "destination": "https://www.pangea.trade/api/logo/:path*" },
+    { "source": "/api/buyback-burns", "destination": "https://www.pangea.trade/api/buyback-burns" },
+    { "source": "/api/platform-funds", "destination": "https://www.pangea.trade/api/platform-funds" },
+    { "source": "/api/launch/pairs", "destination": "https://www.pangea.trade/api/launch/pairs" },
+    { "source": "/api/launch/open-routes", "destination": "https://www.pangea.trade/api/launch/open-routes" },
+    { "source": "/api/bridge/activity", "destination": "https://www.pangea.trade/api/bridge/activity" },
+    { "source": "/opengraph-image", "destination": "https://www.pangea.trade/opengraph-image" },
+    { "source": "/app/t/:id", "destination": "https://www.pangea.trade/app/t/:id" },
+    { "source": "/_next/static/:path*", "destination": "https://www.pangea.trade/_next/static/:path*" }
   ]
 }
