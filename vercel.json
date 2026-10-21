@@ -63,6 +63,11 @@
       "source": "/app",
       "destination": "/app/explore",
       "permanent": false
+    },
+    {
+      "source": "/app/",
+      "destination": "/app/explore",
+      "permanent": false
     }
   ],
   "headers": [
