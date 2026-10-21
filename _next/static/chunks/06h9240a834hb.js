@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,933076,e=>{"use strict";var t=e.i(704688),r=e.i(6674);let o=(0,r.createContext)("");e.s(["DocsSiteUrl",0,function({value:e,children:r}){return(0,t.jsx)(o.Provider,{value:e,children:r})},"useDocsSiteUrl",0,function(){return(0,r.useContext)(o)}])}]);

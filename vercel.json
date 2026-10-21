@@ -1,0 +1,6 @@
+{
+  "cleanUrls": true,
+  "headers": [
+    { "source": "/api/((?!logo/).*)", "headers": [{ "key": "Content-Type", "value": "application/json; charset=utf-8" }] }
+  ]
+}
